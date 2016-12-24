@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		BD217E251E0B496D00290020 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD217E241E0B496D00290020 /* main.swift */; };
+		BD217E2C1E0B4A2900290020 /* ConsoleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD217E2B1E0B4A2900290020 /* ConsoleIO.swift */; };
+		BD217E2E1E0B4A8E00290020 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD217E2D1E0B4A8E00290020 /* App.swift */; };
+		BD217E301E0B597600290020 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD217E2F1E0B597600290020 /* Singleton.swift */; };
+		BD217E321E0B5B1500290020 /* Polymorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD217E311E0B5B1500290020 /* Polymorphism.swift */; };
+		BD217E341E0B5E6100290020 /* Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD217E331E0B5E6100290020 /* Closure.swift */; };
+		BD217E361E0B627100290020 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD217E351E0B627100290020 /* Map.swift */; };
+		BD217E381E0B6B2F00290020 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD217E371E0B6B2F00290020 /* Strings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,13 @@
 /* Begin PBXFileReference section */
 		BD217E211E0B496D00290020 /* CommandLineApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommandLineApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD217E241E0B496D00290020 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BD217E2B1E0B4A2900290020 /* ConsoleIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleIO.swift; sourceTree = "<group>"; };
+		BD217E2D1E0B4A8E00290020 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		BD217E2F1E0B597600290020 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		BD217E311E0B5B1500290020 /* Polymorphism.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Polymorphism.swift; sourceTree = "<group>"; };
+		BD217E331E0B5E6100290020 /* Closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
+		BD217E351E0B627100290020 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		BD217E371E0B6B2F00290020 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,13 @@
 			isa = PBXGroup;
 			children = (
 				BD217E241E0B496D00290020 /* main.swift */,
+				BD217E2B1E0B4A2900290020 /* ConsoleIO.swift */,
+				BD217E2D1E0B4A8E00290020 /* App.swift */,
+				BD217E2F1E0B597600290020 /* Singleton.swift */,
+				BD217E311E0B5B1500290020 /* Polymorphism.swift */,
+				BD217E331E0B5E6100290020 /* Closure.swift */,
+				BD217E371E0B6B2F00290020 /* Strings.swift */,
+				BD217E351E0B627100290020 /* Map.swift */,
 			);
 			path = CommandLineApp;
 			sourceTree = "<group>";
@@ -120,7 +141,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD217E2E1E0B4A8E00290020 /* App.swift in Sources */,
+				BD217E301E0B597600290020 /* Singleton.swift in Sources */,
+				BD217E381E0B6B2F00290020 /* Strings.swift in Sources */,
+				BD217E321E0B5B1500290020 /* Polymorphism.swift in Sources */,
+				BD217E361E0B627100290020 /* Map.swift in Sources */,
 				BD217E251E0B496D00290020 /* main.swift in Sources */,
+				BD217E2C1E0B4A2900290020 /* ConsoleIO.swift in Sources */,
+				BD217E341E0B5E6100290020 /* Closure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +278,7 @@
 				BD217E2A1E0B496D00290020 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
