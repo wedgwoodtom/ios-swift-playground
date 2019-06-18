@@ -40,4 +40,8 @@ let strings = Strings()
 strings.sortAnimals()
 strings.combine()
 strings.joinList()
+strings.splitOnString()
+strings.trimWhitespace()
+strings.splitOnStringAndTrim()
+
 

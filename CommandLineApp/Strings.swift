@@ -54,4 +54,40 @@ class Strings {
     }
     
     
+    func splitOnString() {
+        let mathString: String = "12-37*2/5"
+        let numbers = mathString.components(separatedBy: ["-", "*", "/"])
+        print(numbers)
+        
+        let personsStr: String = "Tom L, Bob T, Mary H"
+        let persons = personsStr.components(separatedBy: [","])
+        print(persons)
+    }
+    
+    func trimWhitespace() {
+        let myString = "  \t\t  Let's trim all the whitespace  \n \t  \n  "
+        let trimmedString = myString.trimmingCharacters(in: .whitespacesAndNewlines)
+        print(trimmedString)
+    }
+    
+    // https://useyourloaf.com/blog/swift-guide-to-map-filter-reduce/
+    
+    func splitOnStringAndTrim() {
+        let personsStr: String = "Tom L\n Bob T, Mary H, ,"
+        let persons = personsStr.components(separatedBy: [",", "\n"])
+            .map({$0.trimmingCharacters(in: .whitespaces)})
+            .filter({$0.count>0})
+        print(persons)
+        
+        // long form
+        let persons2 = personsStr.components(separatedBy: [",", "\n"])
+            .map({(person: String) -> String in
+                return person.trimmingCharacters(in: .whitespaces)
+            })
+            .filter({$0.count>0})
+        print(persons2)
+        
+    }
+    
+    
 }
